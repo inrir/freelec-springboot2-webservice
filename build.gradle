@@ -35,6 +35,9 @@ dependencies {
     // 롬북 문제로 추가해줌. gradle 5.x 이상인점
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('com.h2database:h2')
 }
 
 test {
